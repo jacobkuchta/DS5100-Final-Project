@@ -70,24 +70,24 @@ Synopsis:
 
 API:
 
-  - Class: Die
+  - Class: Die;
      Methods:
-        __init__(faces)
-        change_weights(value,new_weight)
-        roll(n_rolls=1)
+        __init__(faces), 
+        change_weights(value,new_weight), 
+        roll(n_rolls=1), 
         show_die()
    
         
-  - Class: Game
+  - Class: Game;
      Methods:
-        __init__(similar_dice)
-        play(n_rolls)
-        show_recent_result(form="wide")
+        __init__(similar_dice), 
+        play(n_rolls), 
+        show_recent_result(form="wide") 
 
-  - Class: Analyzer
+  - Class: Analyzer;
      Methods:
-        __init__(game)
-        jackpot()
-        face_counts()
-        combo_count()
+        __init__(game), 
+        jackpot(), 
+        face_counts(), 
+        combo_count(), 
         permutation_count()
